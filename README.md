@@ -2,4 +2,4 @@
 NoteApp is an online note application
 
 
-<img src="https://media.giphy.com/media/9VzG1YvAnniox3LZTa/giphy.gif" align="left" width="700" height="1000">
+<img src="https://media.giphy.com/media/Ul3DTLaeGq8W8ACN8P/giphy.gif" align="left" width="480" height="791">
