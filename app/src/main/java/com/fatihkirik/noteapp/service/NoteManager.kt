@@ -129,12 +129,6 @@ class NoteManager{
                                 val header = document.get("header") as String
                                 val content = document.get("content") as String
 
-                                /*
-                                println("Id -> "+id)
-                                println("Header -> "+header)
-                                println("Content -> "+content)
-                                */
-
                                 val note = Note(id,header,content)
                                 noteList.add(note)
                             }
