@@ -19,7 +19,7 @@ class NotesViewModel : ViewModel() {
 
         noteManager.getNotes(object : NoteListener{
             override fun NoteSuccess() {
-                TODO("Not yet implemented")
+
             }
 
             override fun NoteListSuccess(noteList: ArrayList<Note>?) {
@@ -27,7 +27,7 @@ class NotesViewModel : ViewModel() {
             }
 
             override fun NoteDataSuccess(note: Note?) {
-                TODO("Not yet implemented")
+
             }
 
             override fun NoteFail(errorMessage: String) {
@@ -48,11 +48,11 @@ class NotesViewModel : ViewModel() {
             }
 
             override fun NoteListSuccess(noteList: ArrayList<Note>?) {
-                TODO("Not yet implemented")
+
             }
 
             override fun NoteDataSuccess(note: Note?) {
-                TODO("Not yet implemented")
+
             }
 
             override fun NoteFail(errorMessage: String) {
