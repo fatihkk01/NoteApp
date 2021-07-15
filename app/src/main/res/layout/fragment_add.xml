@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/etHeader"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:fontFamily="@font/varela_round_regular"
+            android:hint="Header"
+            android:paddingEnd="10dp"
+            android:inputType="textEmailAddress"
+            android:paddingStart="15dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="360dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:fontFamily="@font/varela_round_regular"
+            android:gravity="left"
+            android:hint="Write Note"
+            android:inputType="textMultiLine"
+            android:padding="15dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etHeader" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/varela_round_regular"
+            android:letterSpacing="0.05"
+            android:text="Add Note"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etNote" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

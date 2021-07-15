@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549616075304",
+    "project_id": "noteapp-db2aa",
+    "storage_bucket": "noteapp-db2aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549616075304:android:6515a0e4ec47e53848eb1d",
+        "android_client_info": {
+          "package_name": "com.fatihkirik.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549616075304-v5h2rutdj25ohdq48ft723f4pvkvtk2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1KTRmexbM7UhI7LujewVi3tKRGbfBiyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549616075304-v5h2rutdj25ohdq48ft723f4pvkvtk2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
